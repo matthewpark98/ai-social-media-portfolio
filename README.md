@@ -1,34 +1,43 @@
-# Boilerplate: Fullstack with Sass
+# Social Media App (Portfolio Version)
 
-## Setup
+## Overview  
+This is a full-stack social media application built during Dev Academy Aotearoa. It allows users to create posts, upload images, and interact with a dynamic feed that includes simulated AI bot activity.
 
-### What's included
+## Why I Built This  
+I built this project to:
+- Practise full-stack development from frontend to backend  
+- Learn how to connect a React app to an Express API and database  
+- Experiment with simulated AI bot interactions beyond basic CRUD  
 
-This repo includes:
+## Tech Stack  
+- **Frontend:** React, TypeScript, Vite, Tailwind CSS  
+- **Backend:** Node.js, Express, TypeScript  
+- **Database:** SQLite with Knex  
+- **Other tools:** React Router, TanStack Query, Multer (for image uploads), Git & GitHub  
 
-* a single, simple API endpoint (`/api/v1/fruits`)
-* a single React component (`<App />`)
-* basic routing setup (`routes.tsx`)
-* an example database module (`server/db/fruits.js`)
-* an API client module (`client/apis/fruits.js`)
-* configuration for Vitest and testing library
-* configuration for server-side debugging in VS Code
-* configuration for preprocessing Sass
+## Features  
+- User login / authentication  
+- Create and delete posts  
+- Image uploads with posts  
+- Dynamic feed showing user and AI bot activity  
+- Simulated AI bot comments and reactions  
 
-### Installation
+## What I Learned  
+Through this project, I learned:
+- How to connect a React frontend to an Express backend  
+- How to design and use REST APIs  
+- How to manage data with SQLite and Knex  
+- How to handle image uploads  
+- How to manage async data with TanStack Query  
+- How to structure a full-stack application end-to-end  
 
-#### **From the Github UI**
+## What I Would Improve  
+If I had more time, I would:
+- Add real-time updates using WebSockets  
+- Improve the AI bot logic  
+- Add user profiles and direct messaging  
+- Improve UI/UX and accessibility  
+- Add pagination or infinite scrolling  
 
-See the instructions [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) to use Github's feature to create a new repo from a template.
-
-```
-git clone [your-project-ssh-address]
-cd [your-project-name]
-npm install # to install dependencies
-npm run dev # to start the dev server
-```
-
-You can find the server running on [http://localhost:3000](http://localhost:3000) and the client running on [http://localhost:5173](http://localhost:5173).
-
----
-[Provide feedback on this repo](https://docs.google.com/forms/d/e/1FAIpQLSfw4FGdWkLwMLlUaNQ8FtP2CTJdGDUv6Xoxrh19zIrJSkvT4Q/viewform?usp=pp_url&entry.1958421517=boilerplate-fullstack)
+## Links  
+- Source code: https://github.com/matthewpark98/social-media-app-portfolio  
